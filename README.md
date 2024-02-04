@@ -1,1 +1,2 @@
 # USGS_query
+Using the python code above, you can query shear wave velocity profiles in different locations in California from United States Geological Survey dataset automatically. There are two points need to be considered that the first one is that this code is written to be implemented on Linux and the second one is that you need to prepare a csv file including the latitude and longitude of locations of interest for query.
