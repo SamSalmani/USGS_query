@@ -7,11 +7,9 @@ data=pd.read_csv("/home/user/Downloads/cross_section_longitudinal_new.csv", name
 data["Lat"] = data["Lat"].astype('float')
 data["Lon"] = data["Lon"].astype('float')
 
-# =============================================================================
-# data=pd.read_csv("/home/user/Downloads/input_RedBox.csv", dtype='str', header=None,names=['Lon', 'Lat'])
-# data["Lat"] = data["Lat"].astype('float')
-# data["Lon"] = data["Lon"].astype('float')
-# =============================================================================
+data=pd.read_csv("/home/user/Downloads/input_RedBox.csv", dtype='str', header=None,names=['Lon', 'Lat'])
+data["Lat"] = data["Lat"].astype('float')
+data["Lon"] = data["Lon"].astype('float')
 
 os.chdir('/home/user/geomodelgrids/geomodelgrids-1.0.0rc2-Linux_x86_64')
 
