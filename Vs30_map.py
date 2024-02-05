@@ -9,8 +9,8 @@ class Willis15Vs30CA:
         #file path
         root = pathlib.Path(__file__).parent
         #vs30 data filenames
-        fname_vs30map_med = '/mnt/halcloud_nfs/glavrent/Research/Other_projects/VS30_CA/data/California_vs30_Wills15_hybrid_7p5c.tif'    if fname_vs30map_med is None else fname_vs30map_med
-        fname_vs30map_sig = '/mnt/halcloud_nfs/glavrent/Research/Other_projects/VS30_CA/data/California_vs30_Wills15_hybrid_7p5c_sd.tif' if fname_vs30map_sig is None else fname_vs30map_sig
+        fname_vs30map_med = '/mnt/user/VS30_CA/data/California_vs30_Wills15_hybrid_7p5c.tif'    if fname_vs30map_med is None else fname_vs30map_med
+        fname_vs30map_sig = '/mnt/user/VS30_CA/data/California_vs30_Wills15_hybrid_7p5c_sd.tif' if fname_vs30map_sig is None else fname_vs30map_sig
         #load vs30 data
         # self.vs30map_med = rasterio.open(root / 'data/California_vs30_Wills15_hybrid_7p5c.tif')
         # self.vs30map_sig = rasterio.open(root / 'data/California_vs30_Wills15_hybrid_7p5c_sd.tif')
