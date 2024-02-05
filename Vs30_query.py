@@ -25,7 +25,7 @@ def test_lookup():
     np.testing.assert_allclose(stds, [0.432, 0.219], rtol=0.01)
     
     
-fname_latlon = r'C:\Users\user\Desktop\Thesis\VsProfiles\New Datasets\New_sections\input_RedBox_longitudinal.csv'
+fname_latlon = r'C:\Users\user\Desktop\Thesis\VsProfiles\New Datasets\New_sections\input_RedBox_longitudinal.csv' #a csv file including the information of latitude and longitude of location of interest
 data_latlon = pd.read_csv(fname_latlon, header=None)
 npt = len(data_latlon)
 
