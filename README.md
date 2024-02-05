@@ -1,2 +1,3 @@
-# USGS_query
+# USGS query and Vs30 query
 Using the python code above, you can query shear wave velocity profiles in different locations in California from United States Geological Survey dataset automatically. There are two points need to be considered that the first one is that this code is written to be implemented on Linux and the second one is that you need to prepare a csv file including the latitude and longitude of locations of interest for query.
+In Vs30 amp, firstly, Willis 2015 map (Wills, C. J., Gutierrez, C., Perez, F. G., & Branum, D. (2015). A Next Generation VS30 Map for California Based on Geology and Topography. Bulletin of the Seismological Society of America, 105(6), 3083-3091. doi: 10.1785/0120150105.) is going toe be defined for Califonia, and in the Vs30 query, it will be read to be used in other model including MCMC.
